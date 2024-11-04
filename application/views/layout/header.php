@@ -10,6 +10,7 @@
 <nav class="bg-white p-4 flex justify-between items-center">
     <div class="flex space-x-4">
         <a href="<?= base_url() ?>" class="<?= ($this->uri->segment(1) == '') ? 'bg-red-600 text-white' : 'text-red-600' ?> font-bold transition duration-300 ease-in-out hover:bg-red-600 hover:text-white rounded-lg px-4 py-2">Heart Care</a>
+        <a href="<?= base_url('symptoms') ?>" class="<?= ($this->uri->segment(1) == 'symptoms') ? 'bg-red-600 text-white' : 'text-red-600' ?> font-bold transition duration-300 ease-in-out hover:bg-red-600 hover:text-white rounded-lg px-4 py-2">Symptoms</a>
         <a href="<?= base_url('form') ?>" class="<?= ($this->uri->segment(1) == 'form') ? 'bg-red-600 text-white' : 'text-red-600' ?> font-bold transition duration-300 ease-in-out hover:bg-red-600 hover:text-white rounded-lg px-4 py-2">Form</a>
         <a href="<?= base_url('diagnoses') ?>" class="<?= ($this->uri->segment(1) == 'diagnoses') ? 'bg-red-600 text-white' : 'text-red-600' ?> font-bold transition duration-300 ease-in-out hover:bg-red-600 hover:text-white rounded-lg px-4 py-2">Diagnoses</a>
     </div>

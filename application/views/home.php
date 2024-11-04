@@ -22,7 +22,7 @@
         perbedaan besar di masa depan. Kepedulian terhadap kesehatan dan kondisi jantung Anda sejak dini merupakan investasi masa depan yang lebih baik!
     </p>
     
-    <a href="<?= base_url('form') ?>" class="bg-white text-red-600 px-6 py-3 rounded-lg shadow-lg mt-8 mb-4 text-lg font-semibold">
-        Yuk Mulai Diagnosa!
+    <a href="<?= base_url('symptoms') ?>" class="bg-white text-red-600 px-6 py-3 rounded-lg shadow-lg mt-8 mb-4 text-lg font-semibold">
+        Yuk Pelajari Gejalanya!
     </a>
 </div>

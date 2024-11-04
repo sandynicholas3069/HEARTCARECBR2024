@@ -56,5 +56,7 @@ $route['submit_form'] = 'form/submit';
 
 $route['diagnoses'] = 'diagnoses/index';
 
+$route['symptoms'] = 'symptoms/index';
+
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;

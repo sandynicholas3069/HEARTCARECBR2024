@@ -15,7 +15,7 @@
                 <th class="border border-red-800 p-2">Depresi ST</th>
                 <th class="border border-red-800 p-2">Kemiringan ST</th>
                 <th class="border border-red-800 p-2">Pembuluh Besar</th>
-                <th class="border border-red-800 p-2">Thalassemia</th>
+                <th class="border border-red-800 p-2">Status Jantung</th>
                 <th class="border border-red-800 p-2">Hasil</th>
             </tr>
         </thead>
