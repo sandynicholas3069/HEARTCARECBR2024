@@ -4,7 +4,7 @@ from sklearn.preprocessing import StandardScaler
 from sklearn.neighbors import KNeighborsClassifier
 from sklearn.metrics import classification_report, confusion_matrix
 
-data = pd.read_csv('heart.csv')
+data = pd.read_csv('dataset/heart.csv')
 
 X = data.drop('target', axis=1)  # Fitur
 y = data['target']  # Target
