@@ -24,5 +24,5 @@ y_pred = knn.predict(X_test)
 print("Confusion Matrix:")
 print(confusion_matrix(y_test, y_pred))
 
-print("\Predict Report:")
+print("\nPredict Report:")
 print(classification_report(y_test, y_pred))
